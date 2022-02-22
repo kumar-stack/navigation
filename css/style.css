@@ -13,15 +13,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rebeccapurple;
+    background: tomato;
     padding: 10px;
 }
 
 .navigation .menu_wrapper a{
-    color: antiquewhite;
+    color: black;
     font-size: 18px;
     padding: 11px;
     text-decoration: none;
+}
+.navigation .menu_wrapper .icon:hover{
+    color: white;
 }
 
 .content_wrapper{
