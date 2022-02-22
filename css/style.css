@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navigation .logo_wrapper img{
+    width: 30px;
+    height: 30px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rebeccapurple;
+    padding: 10px;
+}
+
+.navigation .menu_wrapper a{
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 11px;
+    text-decoration: none;
+}
+
+.content_wrapper{
+    border: 1px solid #000;
+}
